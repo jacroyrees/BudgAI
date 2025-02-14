@@ -1,5 +1,204 @@
 {
-  "node": {},
+  "node": {
+    "00f7468f7ac3f67721608a24ba2356c072b8957aac": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f38b4aa8107416d03e4b678aaac15fe3f01d3e539": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f6482357a4cb3f1d855590ce6cface38a3315f4c7": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f78554c0ef1474b637f00cb31fd291be0be624740": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f7bf601abbf9a597701304c26e92673b3ac8b25cf": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f94f28d7d7b723d31ceebbd144a1fb939ec7241b0": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7fb3e762391e506b3b380ef87c12bdea20b15d917e": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7fbe66bccaf166dbf7e65f90b110126aa133063742": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7fecd29b120b088484af056f4691fb58f9c4e040e8": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "00bdcd6293174602d7929d02a7e4a3e91b7d7342b9": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "00e77206107edf7d28f32356151f341f4d17d52814": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f5d7d6e74e816f765314251cf9f00a0387e0fbdd0": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f7169d90826120a05f814d1802119df6a0d88f5df": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7fa579e91532e1640d715a0ef6508cdb2ded915800": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7fb5571aa6db42af1f1c80043784d7d3894ee32c99": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7fd56261a3871007179fef7103fb33600fa6d9eb3a": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200f7468f7ac3f67721608a24ba2356c072b8957aac%22%2C%22getLoggedInUser%22%5D%2C%5B%227f38b4aa8107416d03e4b678aaac15fe3f01d3e539%22%2C%22getBanks%22%5D%2C%5B%227f6482357a4cb3f1d855590ce6cface38a3315f4c7%22%2C%22signIn%22%5D%2C%5B%227f78554c0ef1474b637f00cb31fd291be0be624740%22%2C%22createLinkToken%22%5D%2C%5B%227f7bf601abbf9a597701304c26e92673b3ac8b25cf%22%2C%22getBank%22%5D%2C%5B%227f94f28d7d7b723d31ceebbd144a1fb939ec7241b0%22%2C%22logoutAccount%22%5D%2C%5B%227fa9cf8f7e3ac68d472058d1cf4fbab50ca280ef9f%22%2C%22createBankAccount%22%5D%2C%5B%227fb3e762391e506b3b380ef87c12bdea20b15d917e%22%2C%22getBankByAccountId%22%5D%2C%5B%227fbe66bccaf166dbf7e65f90b110126aa133063742%22%2C%22getUserInfo%22%5D%2C%5B%227fecd29b120b088484af056f4691fb58f9c4e040e8%22%2C%22signUp%22%5D%2C%5B%227ff89d99edc4c8bd2ca16cf1732ff8c900e88dc6ba%22%2C%22exchangePublicToken%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200bdcd6293174602d7929d02a7e4a3e91b7d7342b9%22%2C%22createSessionClient%22%5D%2C%5B%2200e77206107edf7d28f32356151f341f4d17d52814%22%2C%22createAdminClient%22%5D%5D%5D%2C%5B%22%2FUsers%2Freesj5%2FDocuments%2Fbuilds%2Fbudgai%2Flib%2Factions%2Fdwolla.actions.ts%22%2C%5B%5B%227f5d7d6e74e816f765314251cf9f00a0387e0fbdd0%22%2C%22createFundingSource%22%5D%2C%5B%227f7169d90826120a05f814d1802119df6a0d88f5df%22%2C%22addFundingSource%22%5D%2C%5B%227fa579e91532e1640d715a0ef6508cdb2ded915800%22%2C%22createOnDemandAuthorization%22%5D%2C%5B%227fb5571aa6db42af1f1c80043784d7d3894ee32c99%22%2C%22createDwollaCustomer%22%5D%2C%5B%227fd56261a3871007179fef7103fb33600fa6d9eb3a%22%2C%22createTransfer%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    }
+  },
   "edge": {},
   "encryptionKey": "p1Spr3vUHcslNmzNr3PK/a1bLlKxIkbhSQZk47034kw="
 }
