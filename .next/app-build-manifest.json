@@ -21,25 +21,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(auth)/layout.js"
     ],
+    "/(auth)/sign-up/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/sign-up/page.js"
+    ],
     "/(auth)/sign-in/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(auth)/sign-in/page.js"
     ],
-    "/(root)/my-banks/page": [
+    "/global-error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/my-banks/page.js"
-    ],
-    "/(root)/transaction-history/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/transaction-history/page.js"
-    ],
-    "/(root)/payment-transfer/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/payment-transfer/page.js"
+      "static/chunks/app/global-error.js"
     ]
   }
 }
