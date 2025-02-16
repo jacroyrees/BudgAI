@@ -40,7 +40,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
               alt="Budgey logo"
             />
             <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
-              Budgey
+              Budg.Ai
             </h1>
           </Link>
           <div className="mobilenav-sheet">
